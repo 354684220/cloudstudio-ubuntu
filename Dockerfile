@@ -1,6 +1,6 @@
 # Cloud Studio 从 Git 仓库导入用的开发环境
-# 基础镜像: Ubuntu 20.04 LTS (Focal Fossa)
-FROM ubuntu:20.04
+# 基础镜像: Ubuntu 18.04 LTS (Bionic Beaver)
+FROM ubuntu:18.04
 
 # 避免交互式配置卡住
 ENV DEBIAN_FRONTEND=noninteractive
